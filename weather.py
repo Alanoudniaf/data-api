@@ -46,7 +46,7 @@ def main():
     query = input("City?\n> ")
     city = search_city(query)
 
-    # TODO: Display weather forecast for a given city
+
     # $CHALLENGIFY_BEGIN
     if city:
         daily_forecasts = weather_forecast(city['lat'], city['lon'])
